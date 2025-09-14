@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            background-color:#EFE9E1;
+            height: 100vh;
+            overflow: hidden; 
+            box-sizing: border-box;
+        }
+
+        .card {
+            height: 450px;
+            width: 300px;
+            background-color: black;
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+           
+        }
+        .container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            min-height: 70vh;
+            align-content: center;
+         }
+
+         .card h2 {
+            font-size: 22px;
+            margin-top: 20px;
+         }
+
+         .card .price {
+            font-size: 3rem;
+         }
+
+         .card p {
+            margin-top: 20px;
+         }
+
+         form button {
+            width: 90px;
+            height: 35px;
+            font-size: 18px;
+            font-weight: 600;
+           border: none;
+           border-radius: 8px;
+           cursor: pointer;
+         }
+         .header {
+            height: 20vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: #082351;
+            font-weight: 700;
+         }
+
+         
+
+
+         
+
+    </style>
+</head>
+<body>
+    <div class="header"><h1>Our Services</h1></div>
+    <div class="container">
+        
+        <div class="card free">
+            <h2>Basic</h2>
+            <h2 class="price">Free</h2> <hr/>
+            <p>Quisque porttitor eu dignissim.</p>
+            <p>Mauris molestie, tincidunt sagittis</p> 
+            <form action="#"><button style="margin-top: 30%;" type="button">Buy</button></form>
+            
+
+        </div> 
+
+        <div class="card premiuim" style="background-color:#082351;">
+            <h2>Premiuim</h2>
+            <h2 class="price">$19.99</h2> <hr/>
+            <p>psum libero ornare mi</p>
+            <p>velit leo sed aliquet ante</p>
+            <p>tristique susci Vestibulum ante </p>
+            <form action="#"><button style="margin-top: 17%;" type="button">Buy</button></form>
+        </div>
+
+        <div class="card premium-plus" style="background-color: goldenrod; color: black;">
+            <h2>Premiuim +</h2>
+            <h2 class="price">$49.99</h2> <hr>
+             <p>primis in faucibus orci luctus et ultrice</p>
+            <p>osuere cubilia Aenean cursus.</p>
+            <p>amet tincidunt sagittis, ipsum libero</p>
+            <p>dolor eu dignissim.</p> 
+            <form action="#"><button style="margin-top: 5%;" type="button">Buy</button></form>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>
